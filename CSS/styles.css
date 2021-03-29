@@ -1,0 +1,33 @@
+body {
+  margin: 10px;
+}
+
+p {
+  color: black;
+  background-color: whitesmoke;
+}
+a[href*="google"] {
+  color: tomato;
+}
+#product p {
+  color: black;
+}
+article p:first-child {
+  font-size: 140%;
+  font-style: italic;
+}
+article :last-child() {
+  font-weight: bold;
+}
+ul li:nth-child(odd) {
+  color: deeppink;
+}
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: deeppink;
+}

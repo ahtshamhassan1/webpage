@@ -1,0 +1,68 @@
+<style>
+  .heart {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: deeppink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+  }
+  .heart::after {
+    background-color: deeppink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 25px;
+  }
+
+  .heart::before {
+    content: "";
+    background-color: deeppink;
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+  .hexagon {
+    top: 30vh;
+    left: 40%;
+    position: absolute;
+    margin: 0 auto;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 63px;
+    box-sizing: border-box;
+    transition: all 1s;
+    border: 0.4vh solid transparent;
+  }
+  .hexagon:before,
+  .hexagon:after {
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: -0.5vh;
+    left: -0.5vh;
+    background-color: deepskyblue;
+    border: inherit;
+    height: 100%;
+    width: 100%;
+  }
+  .hexagon:before {
+    transform: rotate(60deg);
+  }
+  .hexagon::after {
+    transform: rotate(-60deg);
+  }
+</style>
+<div class="heart"></div>
+<div class="hexagon"></div>

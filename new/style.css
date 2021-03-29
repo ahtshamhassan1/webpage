@@ -1,0 +1,17 @@
+p {
+  color: blueviolet;
+  border: 1px solid black;
+}
+strong {
+  color: initial;
+  border: inherit;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(3, 186, 2525);
+}
+.icon {
+  font-size: 10rem;
+  color: black;
+}

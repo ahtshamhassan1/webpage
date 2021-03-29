@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+}
+.container {
+    border: 3px solid lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+
+
+}
+.box {
+    flex-basis: 15rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 15rem;
+    width: 5rem;
+    height: 5rem;
+    background: lightsalmon;
+    margin: 1rem;
+}
+.box-one {
+    flex-basis: 5rem;
+    align-self: center;
+    /* flex-grow: 2; */
+}
+/* flex-basic(the intial size of a flex item) */
+/* flex-grow ( the growth factor) */
+/* flex-shrink ( the shrink factor) */
+/* flex */

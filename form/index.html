@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>form</title>
+  </head>
+  <body>
+    <h1>Register Now!</h1>
+    <form>
+      <label for=""
+        >Name
+        <input type="text" placeholder="Name" />
+      </label>
+      <label
+        >Email
+        <input type="email" placeholder="Email" />
+      </label>
+      <label
+        >Number
+        <input type="number" placeholder="Number" />
+      </label>
+      <label
+        >Password
+        <input type="password" placeholder="Password" />
+      </label>
+      <label
+        >countries
+        <input type="text" list="countries" />
+        <datalist id="countries">
+          <option>Pakistan</option>
+          <option>Australia</option>
+          <option>China</option>
+          <option>Bangladesh</option>
+          <option>Canada</option>
+          <option>United states</option>
+        </datalist>
+      </label>
+      <label
+        >Date
+        <input type="date" />
+        <textarea name="" id="" cols="30" rows="10">Comments...</textarea>
+      </label>
+      <button class="register">Register</button>
+    </form>
+    <form>
+      <label> <input type="text" value="username" /></label>
+      <label> <input type="text" value="password" /></label>
+      <button class="login">Login</button>
+      <input type="email" value="ahtshamhassan145@gmail.com" />
+      <input type="email" readonly value="ahtshamhassan145@gmail.com" />
+      <input type="email" disabled value="ahtshamhassan145@gmail.com" />
+      <input type="text" maxlength="5" placeholder="maxlength 5" />
+      <input type="text" autofocus placeholder="autofocus" />
+    </form>
+    <form>
+      <h1>Courses</h1>
+      <select>
+        <optgroup label="Front-end Courses">
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">JavaScript</option>
+        </optgroup>
+
+        <optgroup label="Back-end Courses">
+          <option value="1">Node.js</option>
+          <option value="2">ASP.NET</option>
+          <option value="3">Django</option>
+        </optgroup>
+      </select>
+    </form>
+  </body>
+</html>

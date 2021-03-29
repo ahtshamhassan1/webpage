@@ -1,0 +1,23 @@
+body {
+  margin: 10px;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+}
+.logo-container {
+  background: lightgray;
+}
+.logo-container > img {
+  width: 100px;
+  background: lightgray;
+}
+
+.navigation {
+  background-color: gray;
+}
+/* .box-one {
+  width: 100%;
+} */

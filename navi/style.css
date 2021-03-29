@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background: rgb(230, 228, 228);
+}
+nav {
+  display: grid;
+  grid-auto-flow: column;
+}
+#left {
+  display: grid;
+  background-color: deepskyblue;
+  grid-auto-flow: column;
+  align-items: center;
+  grid-template-columns: 1fr 5fr;
+}
+#logo img {
+  height: 7rem;
+}
+
+#navigation {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.right {
+  background-color: deepskyblue;
+  display: grid;
+  justify-content: right;
+  align-items: center;
+}
+
+.profile-picture img {
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#navigation a {
+  text-decoration: none;
+}
+/* #navigation a:hover {
+  text-decoration: underline;
+} */
+.button {
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button:hover {
+  background-color: rgb(11, 66, 66);
+}
+#bell-icon {
+  height: 25px;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,21 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, white, green) 50%;
+  border: 20px solid rgb(145, 24, 24);
+  border-top: 10px solid rgb(84, 18, 206);
+  border-width: 10px 10px 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px black;
+}
+p {
+  color: steelblue;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: monospace;
+  text-align: right;
+}
+h1 {
+  color: black;
+  text-shadow: 3px 3px 5px;
+}

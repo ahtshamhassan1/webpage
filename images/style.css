@@ -1,0 +1,21 @@
+body {
+  background: url(../images/room-with-concrete-floor-smoke-background_9083-2991.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+img {
+  height: 50rem;
+  margin-left: 10rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  /* filter: grayscale(10%) blur(1px); */
+}
+h1 {
+  font-size: 15rem;
+  color: #fff;
+  font-family: cursive;
+}
+/* Iamge:hover */

@@ -1,0 +1,22 @@
+.boxes {
+  border: 3px solid lightcoral;
+}
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+.box-one {
+  background-color: lightgreen;
+}
+.box-two {
+  background-color: black;
+}
+.box-three {
+  background-color: blue;
+}
+.box-four {
+  background-color: orange;
+  position: relative;
+  left: 20rem;
+  top: 10rem;
+}
